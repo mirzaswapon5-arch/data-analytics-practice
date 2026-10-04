@@ -25,6 +25,26 @@ Come back to me in dreams, that I may give
 Pulse for pulse, breath for breath:
 Speak low, lean low,
 As long ago, my love, how long ago.""",
+        "translation_bn": """রাতের নীরবতায় তুমি আমার কাছে এসো;
+স্বপ্নের মুখরিত নীরবতায় এসো;
+নদীর স্রোতে রোদের মতো উজ্জ্বল চোখ আর
+নরম ফোলা গাল নিয়ে এসো;
+অশ্রুতে ফিরে এসো,
+হে স্মৃতি, আশা, ও অতীতের ফুরিয়ে যাওয়া ভালোবাসা।
+
+ও স্বপ্ন কী যে মধুর, বড্ড মধুর, বড্ড কড়া-মধুর,
+যার ঘুম ভাঙা উচিত ছিল স্বর্গে,
+যেখানে ভালোবাসায় ভরপুর আত্মারা বসবাস করে ও মিলিত হয়;
+যেখানে তৃষ্ণার্ত ব্যাকুল চোখগুলো
+ধীরে খোলা দরজার দিকে চেয়ে থাকে
+যা একবার খুললে আর কাউকে বের হতে দেয় না।
+
+তবুও স্বপ্নে আমার কাছে এসো, যেন আমি বাঁচতে পারি
+আমার আসল জীবন আবার যদিও মৃত্যুর হিমশীতলতায়:
+স্বপ্নে আমার কাছে ফিরে এসো, যেন আমি দিতে পারি
+স্পন্দনের বিনিময়ে স্পন্দন, নিশ্বাসের বিনিময়ে নিশ্বাস:
+ধীরে কথা বলো, ঝুঁকে পড়ো কাছে,
+অনেক দিন আগে যেমন ছিলে, আমার ভালোবাসা, কত দিন আগে।""",
         "summary_bn": "এই কবিতায় কবি তার হারিয়ে যাওয়া ভালোবাসার স্মৃতিকে স্বপ্নে ফিরে আসার আহ্বান জানাচ্ছেন। 'Echo' মানে প্রতিধ্বনি - যা আছে কিন্তু ধরা যায় না।",
         "theme": "Loss, Memory, Longing, Death and Dream",
         "devices": ["Apostrophe", "Repetition (Come)", "Alliteration", "Paradox (too sweet, too bitter sweet)", "Imagery"],
@@ -50,6 +70,23 @@ How statue-like I see thee stand,
 The agate lamp within thy hand!
 Ah, Psyche, from the regions which
 Are Holy-Land!""",
+        "translation_bn": """হেলেন, তোমার সৌন্দর্য আমার কাছে
+কালের সেই নাইসিয়ান তরণীর মতো,
+যা সুবাসিত সমুদ্রের ওপর দিয়ে মৃদুভাবে,
+ক্লান্ত, পথশ্রান্ত পর্যটককে বয়ে নিয়ে গিয়েছিল
+তার নিজের জন্মভূমিতে।
+
+উদ্বেগজনক সমুদ্রে বহুদিন ঘুরে বেড়ানোর পর,
+তোমার হায়াসিন্থের মতো চুল, তোমার ক্লাসিক মুখাবয়ব,
+তোমার জলপরী সদৃশ চালচলন আমাকে ফিরিয়ে এনেছে ঘরে
+গ্রিসের সেই প্রাচীন গৌরবে,
+আর রোমের সেই মহিমায়।
+
+দেখো! ঐ উজ্জ্বল জানালার কুলুঙ্গিতে
+কীভাবে তোমাকে মূর্তির মতো দাঁড়িয়ে থাকতে দেখি,
+তোমার হাতে রয়েছে অ্যাগেট পাথরের প্রদীপ!
+আহ, সাইকি, সেই অঞ্চল থেকে তুমি এসেছ
+যা পবিত্র ভূমি!""",
         "summary_bn": "Helen এর সৌন্দর্য ক্লান্ত নাবিককে যেমন ঘরে ফেরায়, তেমনি কবিকেও অন্ধকার থেকে আলোয় ফিরিয়ে এনেছে।",
         "theme": "Ideal Beauty, Classical Allusion, Love as Salvation",
         "devices": ["Simile (Like Nicean barks)", "Allusion (Greece, Rome, Psyche)", "Alliteration (weary, way-worn)", "Metaphor"],
@@ -65,6 +102,13 @@ But as I rav'd and grew more fierce and wilde
 At every word,
 Methought I heard one calling, Child!
 And I replied, My Lord.""",
+        "translation_bn": """আমি টেবিলে আঘাত করলাম এবং চিৎকার করে বললাম, আর নয়।
+আমি বাইরে চলে যাবো।
+... (সম্পূর্ণ লেখা)
+কিন্তু আমি যখন ক্ষিপ্ত হয়ে আরও হিংস্র ও বন্য হয়ে উঠছিলাম
+প্রতিটি শব্দে,
+মনে হলো আমি কাউকে ডাকতে শুনলাম, শিশু!
+আর আমি জবাব দিলাম, আমার প্রভু।""",
         "summary_bn": "কবি ঈশ্বরের প্রতি বিদ্রোহ করে স্বাধীন হতে চান, কিন্তু শেষে 'Child!' ডাক শুনে 'My Lord' বলে আত্মসমর্পণ করেন। Collar মানে ধর্মের বন্ধন।",
         "theme": "Spiritual Rebellion vs Submission, Divine Love",
         "devices": ["Metaphor (Collar = restraint)", "Conceit (rope of sands)", "Dramatic Monologue", "Pun", "Biblical Allusion"],
@@ -80,6 +124,13 @@ Stop here, or gently pass!
 ...
 The music in my heart I bore,
 Long after it was heard no more.""",
+        "translation_bn": """তাকে দেখো, মাঠে একা দাঁড়িয়ে আছে,
+ঐ একাকী পাহাড়ি তরুণী!
+একা একা ফসল কাটছে আর গান গাইছে;
+এখানে থেমো, কিংবা মৃদু পায়ে চলে যাও!
+...
+সেই গান আমি আমার হৃদয়ে বহন করে চলেছি,
+অনেক দিন পর যখন তা আর শোনা যায় না তারও বহু পরে।""",
         "summary_bn": "স্কটল্যান্ডের পাহাড়ে একা এক মেয়েকে ফসল কাটতে ও গান গাইতে দেখেন। গানের ভাষা না বুঝলেও সুর হৃদয়ে গেঁথে থাকে।",
         "theme": "Beauty of Solitude, Music and Memory, Nature",
         "devices": ["Simile (like Nightingale)", "Alliteration", "Romantic Imagery", "Hyperbole"],
@@ -106,16 +157,23 @@ with st.sidebar:
     st.divider()
     st.header("🔍 Literary Terms")
     term = st.selectbox("Quick Dictionary:", ["Select"] + list(literary_terms.keys()))
-    if term!= "Select":
+    if term != "Select":
         st.info(f"**{term}:** {literary_terms[term]}")
 
 data = poems[choice]
-col1, col2 = st.columns([2,1])
+col1, col2 = st.columns([2, 1])
 
 with col1:
     st.subheader(choice)
     st.write(f"**Poet:** {data['poet']}")
-    st.text_area("Original Text", data["original"], height=250)
+    
+    # ট্যাবের মাধ্যমে মূল কবিতা এবং বাংলা অনুবাদ আলাদা বা একসাথে দেখার ব্যবস্থা
+    tab1, tab2 = st.tabs(["📜 Original Poem", "🇧🇩 Bangla Translation"])
+    with tab1:
+        st.text_area("Original Text", data["original"], height=250, key="orig")
+    with tab2:
+        st.text_area("বাংলা অনুবাদ", data["translation_bn"], height=250, key="trans")
+        
     st.markdown(f"**🇧🇩 বাংলায় সারমর্ম:** {data['summary_bn']}")
     st.markdown(f"**💡 Analysis:** {data['analysis']}")
 
