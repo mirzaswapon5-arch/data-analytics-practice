@@ -57,7 +57,7 @@ As long ago, my love, how long ago.""",
         "poet": "Edgar Allan Poe (1809-1849)",
         "original": """Helen, thy beauty is to me
 Like those Nicean barks of yore,
-That gently, o'er a perfumed sea,
+That gently, o er a perfumed sea,
 The weary, way-worn wanderer bore
 To his own native shore.
 
