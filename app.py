@@ -75,7 +75,27 @@ As long ago, my love, how long ago.""",
        "analysis": """ক্রিস্টিনা রোসেটির (Christina Rossetti) বিখ্যাত 'Echo' কবিতাটি কাঠামোগত এবং ভাবগত উভয় দিক থেকেই অত্যন্ত সুনিপুণ ও গভীর একটি সাহিত্যকর্ম। কবিতাটিতে মোট তিনটি স্তবক (stanzas) রয়েছে এবং এর ছন্দ বিন্যাস বা রাইম স্কিম (Rhyme Scheme) হলো AABCBC, যা স্তবকগুলোকে এক ধরনের মৃদু, বিষণ্ণ ও শোকাবহ সুরের আবহে বেঁধে রাখে। কবিতার সামগ্রিক সুরটি স্পষ্টতই একটি 'Elegiac tone' বা শোকগাথার সুর, যেখানে প্রিয়জনকে চিরতরে হারিয়ে ফেলার তীব্র দীর্ঘশ্বাস প্রতিটি পংক্তিতে অনুভূত হয়। 
 
 কবিতাটির মূল দর্শন আবর্তিত হয়েছে স্মৃতি, স্বপ্ন (Dreams) এবং বাস্তবতার এক অদ্ভুত মায়াজালে। কবি এমন এক অলীক জগতের সন্ধান করেছেন যা কেবল অবচেতন মনের স্বপ্নরাজ্যেই সম্ভব। বাস্তব জীবনের নির্মম মৃত্যু (Death) এবং দূরত্ব যেখানে ভালোবাসাকে হিমশীতল ও অসম্ভব করে তোলে, স্বপ্ন সেখানে একমাত্র জাদুকরী আশ্রয়স্থল হয়ে ওঠে যেখানে মৃত বা হারিয়ে যাওয়া ভালোবাসা পুনরায় জীবিত ও প্রাণবন্ত হয়ে উঠতে পারে। স্তবক থেকে স্তবকে কবির এই আকুলতা—যেমন 'Pulse for pulse, breath for breath'—মৃত্যুর দেয়াল ভেদ করে প্রিয়জনকে কাছে পাওয়ার এক চিরন্তন মানবিক আবেদন ফুটিয়ে তোলে। পরিশেষে, এই কবিতাটি কেবল দুঃখ বা শোককেই ফুটিয়ে তোলে না, বরং মানবমনের অবচেতন স্তরের অমর ভালোবাসার এক অসাধারণ মনস্তাত্ত্বিক রূপায়ণ এখানে ঘটিয়েছেন কবি।""",
-       
+       st.markdown(f"**💡 Analysis:** {data['analysis']}")
+    
+    st.divider()
+    
+    # প্রশ্ন ও উত্তর সেকশন
+    st.markdown("### 📝 Important Q&A")
+    st.markdown("""
+**What is the significance of the title 'Echo' in the poem? / কবিতার নামের সঙ্গে 'Echo' বা প্রতিধ্বনির প্রতীকী বিষয়টি কীভাবে জড়িত? [3]**
+
+In Christina Rossetti's poem 'Echo', the title carries a deep symbolic meaning. Just like a real echo can be heard from far away but can never be touched or held, the poet's lost loved one is also permanently gone and out of reach.
+
+ক্রিস্টিনা রোসেটির 'Echo' কবিতায় 'Echo' বা প্রতিধ্বনি নামটি খুব গভীর একটি প্রতীক হিসেবে কাজ করেছে। বাস্তব জীবনে যেমন প্রতিধ্বনিকে দূর থেকে শোনা যায় কিন্তু কখনো হাত দিয়ে ধরে রাখা যায় না, ঠিক তেমনি কবির হারিয়ে যাওয়া প্রিয়জনও আজ মৃত্যু বা দূরত্বের কারণে চিরতরে দূরে চলে গেছে।
+
+Just as an echo is only a faint reflection of an original sound, 'dreams' and 'memory' act as that echo in this poem. To escape the painful reality, the poet depends on her dreams, where her dead love comes back to life temporarily.
+
+প্রতিধ্বনি যেমন আসল শব্দের একটি মৃদু ছায়া মাত্র, তেমনি এই কবিতায় 'স্বপ্ন' এবং 'স্মৃতি' হলো সেই প্রতিধ্বনি। বাস্তব জীবনের কষ্ট থেকে বাঁচতে কবি স্বপ্নের ওপর ভরসা করেন, যেখানে তাঁর মৃত ভালোবাসা সাময়িকভাবে আবার ফিরে আসে।
+
+Even after a sound stops, its echo lingers for a while before fading away. Similarly, long after the loved one's death, the deep pain, sorrow, and endless sighs keep echoing inside the poet's heart.
+
+কোথাও শব্দ থেমে যাওয়ার পরেও যেমন তার প্রতিধ্বনি অনেকক্ষণ ধরে বেজে চলে, ঠিক তেমনি প্রিয়জনের মৃত্যুর পরও তাঁর গভীর শোক, দীর্ঘশ্বাস এবং না পাওয়ার হাহাকার কবির হৃদয়ে সবসময় বেজে চলতে থাকে।
+    """)
        "questions": [
             {
                 "set": "Set A",
