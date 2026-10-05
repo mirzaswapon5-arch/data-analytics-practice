@@ -81,18 +81,59 @@ As long ago, my love, how long ago.""",
                 "q1": "(a) What is the significance of the title 'Echo' in the poem? / কবিতার নামের সঙ্গে 'Echo' বা প্রতিধ্বনির প্রতীকী বিষয়টি কীভাবে জড়িত? [3]",
                 "q2": "(b) How does the poem's stanzaic structure and rhythm reflect the sorrowful tone of the speaker? / কবিতার স্তবকের গঠন বা ছন্দ কীভাবে কবির মনের ভেতরের দুঃখের সুরটিকে ফুটিয়ে তোলে? [3]",
                 "q3": "(c) How are unfulfilled love and the deep pain of losing a loved one portrayed in this poem? / অপূর্ণ ভালোবাসা এবং প্রিয়জনকে চিরতরে হারানোর বেদনা এই কবিতায় কীভাবে ফুটে উঠেছে? [4]"
-            },
+            }
+        ]
+    },
+    "Stopping by Woods on a Snowy Evening - Robert Frost": {
+        "poet": "Robert Frost (1874-1963)",
+        "original": """Whose woods these are I think I know.
+His house is in the village though;
+He will not see me stopping here
+To watch his woods fill up with snow.
+
+My little horse must think it queer
+To stop without a farmhouse near
+Between the woods and frozen lake
+The darkest evening of the year.
+
+He gives his harness bells a shake
+To ask if there is some mistake.
+The only other sound's the sweep
+Of easy wind and downy flake.
+
+The woods are lovely, dark and deep,
+But I have promises to keep,
+And miles to go before I sleep,
+And miles to go before I sleep.""",
+        "translation_bn": """এই বন কার, তা আমি জানি বলে মনে হয়।
+তবে তার বাড়ি তো গ্রামে;
+সে আমাকে এখানে থেমে থাকতে দেখবে না
+তার বনে বরফ জমতে দেখার জন্য।
+
+আমার ছোট ঘোড়াটি নিশ্চয়ই অদ্ভুত মনে করছে
+কাছাকাছি কোনো ফার্মহাউস না থাকা সত্ত্বেও থেমে থাকাকে
+বন এবং জমে যাওয়া হ্রদের মাঝখানে—
+বছরের সবচেয়ে অন্ধকার সন্ধ্যায়।
+
+সে তার জিনের ঘণ্টা নাড়িয়ে দেয়
+কোনো ভুল হলো কি না তা জিজ্ঞেস করার জন্য।
+অন্য যে শব্দটুকু আছে তা হলো মৃদু বাতাস
+আর তুলোর মতো নরম বরফ পড়ার শব্দ।
+
+বনগুলো সুন্দর, অন্ধকার আর গভীর,
+কিন্তু আমার কিছু প্রতিশ্রুতি রাখার আছে,
+আর ঘুমানোর আগে আমাকে আরও অনেক পথ যেতে হবে,
+আর ঘুমানোর আগে আমাকে আরও অনেক পথ যেতে হবে।""",
+        "summary_bn": """রবার্ট ফ্রস্টের লেখা 'Stopping by Woods on a Snowy Evening' কবিতাটি একটি গভীর অর্থবহ ও জনপ্রিয় কবিতা। এক শীতের সন্ধ্যায় বরফে ঢাকা এক সুন্দর ও নির্জন বনের সৌন্দর্যে মুগ্ধ হয়ে কবি সেখানে কিছুক্ষণ থামেন। প্রকৃতির শান্ত ও মোহনীয় রূপ তাঁকে সাময়িকভাবে সবকিছু ভুলিয়ে রাখতে চায়। কিন্তু তাঁর ঘোড়ার ঘণ্টা নাড়ার মাধ্যমে তাঁর চেতনা ফিরে আসে। কবি বুঝতে পারেন যে প্রকৃতির মোহে মগ্ন থাকার সময় তাঁর নেই, কারণ জীবনের অনেক দায়িত্ব ও কর্তব্য (promises to keep) তাঁকে পালন করতে হবে। কবিতাটিতে একদিকে প্রকৃতির আকর্ষণ এবং অন্যদিকে মানুষের সামাজিক দায়িত্ব ও জীবনের শেষ গন্তব্যের এক অপূর্ব দার্শনিক দ্বন্দ্ব ফুটে উঠেছে।""",
+        "theme": "Nature vs. Duty, Temptation vs. Responsibility, Death and Life",
+        "devices": ["Alliteration", "Imagery", "Repetition", "Personification"],
+        "analysis": """রবার্ট ফ্রস্টের এই কবিতাটি তার সহজ ভাষার অন্তরালে গভীর জীবনদর্শন ধারণ করে। প্রকৃতির সৌন্দর্য মানুষকে যেভাবে মন্ত্রমুগ্ধ করে এবং তার দায়িত্ববোধকে ভুলিয়ে দিতে চায়, তার এক চমৎকার রূপায়ন এখানে রয়েছে। শেষ স্তবকের লাইনগুলো ('And miles to go before I sleep') কেবল আক্ষরিক অর্থে পথ চলা নয়, বরং জীবনের শেষ পরিণতি বা মৃত্যুর আগের দীর্ঘ কর্তব্য ও দায়িত্ব পালনের প্রতীক।""",
+        "questions": [
             {
-                "set": "Set B",
-                "q1": "(a) How does the line 'Pulse for pulse, breath for breath' express the deep desire to get back the lost loved one beyond life and death? / 'Pulse for pulse, breath for breath'— এই লাইনটির মাধ্যমে জীবন ও মৃত্যুর দেয়াল পেরিয়ে প্রিয়জনকে কাছে পাওয়ার আকুলতা কীভাবে প্রকাশ পেয়েছে? [3]",
-                "q2": "(b) How does the poet use 'dreams' as a medium to bring back her lost loved one? / কবিতায় কবি প্রিয়জনকে ফিরে পাওয়ার জন্য 'স্বপ্ন' (dream)-কে একটি মাধ্যম হিসেবে কীভাবে ব্যবহার করেছেন? [3]",
-                "q3": "(c) How does the paradox 'too sweet, too bitter sweet' reflect the speaker's complex psychological state? / কবিতায় ব্যবহৃত বিপরীতধর্মী কথা যেমন 'too sweet, too bitter sweet'— কবির জটিল মনস্তাত্ত্বিক অবস্থাকে কীভাবে তুলে ধরে? [4]"
-            },
-            {
-                "set": "Set C",
-                "q1": "(a) What is the overall tone of the poem, and what kind of feeling does it evoke in the reader? / পুরো কবিতাটির সামগ্রিক সুর বা ভাব কেমন এবং এটি পড়ার সময় পাঠকের মনে কেমন অনুভূতি জাগায়? [3]",
-                "q2": "(b) Identify and explain any two literary devices used by the poet in the first stanza. / কবিতার প্রথম স্তবকে কবি যে কোনো দুটি গুরুত্বপূর্ণ অলংকার বা লিটারারি ডিভাইস ব্যবহার করেছেন, তা সহজ ভাষায় বুঝিয়ে লেখো। [3]",
-                "q3": "(c) Discuss 'Echo' as a Victorian elegiac poem where memory and sighs are deeply explored. / একটি ভিক্টোরিয়ান যুগের বিরহের কবিতা বা Elegy হিসেবে 'Echo' কবিতায় স্মৃতি এবং দীর্ঘশ্বাসের বিষয়টি কতটা গভীরভাবে ফুটিয়ে তোলা হয়েছে? [4]"
+                "set": "Standard Set",
+                "q1": "(a) What is the central theme of the poem? / কবিতার মূল ভাব বা থিম কী? [3]",
+                "q2": "(b) What do the woods and the horse symbolize in the poem? / কবিতায় বন এবং ঘোড়া কী প্রতীক বহন করে? [3]",
+                "q3": "(c) Explain the significance of the last stanza, especially 'Miles to go before I sleep'. / শেষ স্তবকের তাৎপর্য ব্যাখ্যা করো, বিশেষ করে 'Miles to go before I sleep' লাইনটির গভীর অর্থ কী? [4]"
             }
         ]
     },
@@ -252,14 +293,18 @@ with col1:
 In Christina Rossetti's poem 'Echo', the title carries a deep symbolic meaning. Just like a real echo can be heard from far away but can never be touched or held, the poet's lost loved one is also permanently gone and out of reach.
 
 ক্রিস্টিনা রোসেটির 'Echo' কবিতায় 'Echo' বা প্রতিধ্বনি নামটি খুব গভীর একটি প্রতীক হিসেবে কাজ করেছে। বাস্তব জীবনে যেমন প্রতিধ্বনিকে দূর থেকে শোনা যায় কিন্তু কখনো হাত দিয়ে ধরে রাখা যায় না, ঠিক তেমনি কবির হারিয়ে যাওয়া প্রিয়জনও আজ মৃত্যু বা দূরত্বের কারণে চিরতরে দূরে চলে গেছে।
+        """)
+    
+    # যদি কবিতাটি Stopping by Woods on a Snowy Evening হয়, তবে এর Q&A দেখাবে
+    elif choice == "Stopping by Woods on a Snowy Evening - Robert Frost":
+        st.divider()
+        st.markdown("### 📝 Important Q&A")
+        st.markdown("""
+**What is the central theme of the poem? / কবিতার মূল থিম কী? [3]**
 
-Just as an echo is only a faint reflection of an original sound, 'dreams' and 'memory' act as that echo in this poem. To escape the painful reality, the poet depends on her dreams, where her dead love comes back to life temporarily.
+The central theme of Robert Frost's poem is the conflict between the pull of nature's beauty and the burden of human responsibilities and duties.
 
-প্রতিধ্বনি যেমন আসল শব্দের একটি মৃদু ছায়া মাত্র, তেমনি এই কবিতায় 'স্বপ্ন' এবং 'স্মৃতি' হলো সেই প্রতিধ্বনি। বাস্তব জীবনের কষ্ট থেকে বাঁচতে কবি স্বপ্নের ওপর ভরসা করেন, যেখানে তাঁর মৃত ভালোবাসা সাময়িকভাবে আবার ফিরে আসে।
-
-Even after a sound stops, its echo lingers for a while before fading away. Similarly, long after the loved one's death, the deep pain, sorrow, and endless sighs keep echoing inside the poet's heart.
-
-কোথাও শব্দ থেমে যাওয়ার পরেও যেমন তার প্রতিধ্বনি অনেকক্ষণ ধরে বেজে চলে, ঠিক তেমনি প্রিয়জনের মৃত্যুর পরও তাঁর গভীর শোক, দীর্ঘশ্বাস এবং না পাওয়ার হাহাকার কবির হৃদয়ে সবসময় বেজে চলতে থাকে।
+রবার্ট ফ্রস্টের এই কবিতার মূল থিম হলো প্রকৃতির সৌন্দর্যের মোহ এবং মানুষের সামাজিক দায়িত্ব ও কর্তব্যের মধ্যকার টানাপোড়েন।
         """)
 
 with col2:
@@ -282,7 +327,7 @@ with col2:
 
 st.divider()
 st.subheader("🎯 Quick Quiz")
-q = st.radio("Which poem ends with 'My Lord' as submission?", ["Echo", "The Collar", "The Solitary Reaper", "To Helen"], index=None)
+q = st.radio("Which poem ends with 'My Lord' as submission?", ["Echo", "The Collar", "The Solitary Reaper", "To Helen", "Stopping by Woods on a Snowy Evening"], index=None)
 if q:
     if q == "The Collar":
         st.balloons()
