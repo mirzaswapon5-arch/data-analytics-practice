@@ -1,30 +1,57 @@
 import streamlit as st
 
-st.set_page_config(page_title="Poetry Lab - For English Dept", page_icon="📚", layout="wide")
+# =========================================================
+# PAGE CONFIG
+# =========================================================
 
-# Custom CSS to increase font size across the app
+st.set_page_config(
+    page_title="Poetry Lab - For English Dept",
+    page_icon="📚",
+    layout="wide"
+)
+
+
+# =========================================================
+# CUSTOM CSS
+# =========================================================
+
 st.markdown("""
-    <style>
-    /* Main body text and questions font size */
-    p, li, .stMarkdown {
-        font-size: 18px !important;
-    }
-    /* Headers font size */
-    h1 {
-        font-size: 38px !important;
-    }
-    h2 {
-        font-size: 30px !important;
-    }
-    h3 {
-        font-size: 24px !important;
-    }
-    </style>
+<style>
+
+p, li, .stMarkdown {
+    font-size: 18px !important;
+}
+
+h1 {
+    font-size: 38px !important;
+}
+
+h2 {
+    font-size: 30px !important;
+}
+
+h3 {
+    font-size: 24px !important;
+}
+
+</style>
 """, unsafe_allow_html=True)
 
+
+# =========================================================
+# POEMS DATABASE
+# =========================================================
+
 poems = {
+
+    # =====================================================
+    # 1. ECHO
+    # =====================================================
+
     "Echo - Christina Rossetti": {
+
         "poet": "Christina Rossetti (1830-1894)",
+
         "original": """Come to me in the silence of the night;
 Come in the speaking silence of a dream;
 Come with soft rounded cheeks and eyes as bright
@@ -45,6 +72,7 @@ Come back to me in dreams, that I may give
 Pulse for pulse, breath for breath:
 Speak low, lean low,
 As long ago, my love, how long ago.""",
+
         "translation_bn": """রাতের নীরবতায় তুমি আমার কাছে এসো;
 স্বপ্নের মুখরিত নীরবতায় এসো;
 নদীর স্রোতে রোদের মতো উজ্জ্বল চোখ আর
@@ -65,10 +93,20 @@ As long ago, my love, how long ago.""",
 স্পন্দনের বিনিময়ে স্পন্দন, নিশ্বাসের বিনিময়ে নিশ্বাস:
 ধীরে কথা বলো, ঝুঁকে পড়ো কাছে,
 অনেক দিন আগে যেমন ছিলে, আমার ভালোবাসা, কত দিন আগে।""",
+
         "summary_bn": "ক্রিস্টিনা রোসেটির লেখা 'Echo' কবিতাটিতে কবি তাঁর হারিয়ে যাওয়া ভালোবাসার স্মৃতি এবং প্রিয়জনকে স্বপ্নে ফিরে পাওয়ার আকুল আবেদন জানিয়েছেন।",
+
         "theme": "Loss, Memory, Longing, Death and Dream",
-        "devices": ["Apostrophe", "Repetition", "Alliteration", "Imagery"],
+
+        "devices": [
+            "Apostrophe",
+            "Repetition",
+            "Alliteration",
+            "Imagery"
+        ],
+
         "analysis": "কবিতাটিতে মোট তিনটি স্তবক রয়েছে এবং এর ছন্দ বিন্যাস AABCBC।",
+
         "questions": [
             {
                 "set": "Set A",
@@ -78,8 +116,16 @@ As long ago, my love, how long ago.""",
             }
         ]
     },
+
+
+    # =====================================================
+    # 2. STOPPING BY WOODS
+    # =====================================================
+
     "Stopping by Woods on a Snowy Evening - Robert Frost": {
+
         "poet": "Robert Frost (1874-1963)",
+
         "original": """Whose woods these are I think I know.
 His house is in the village though;
 He will not see me stopping here
@@ -99,6 +145,7 @@ The woods are lovely, dark and deep,
 But I have promises to keep,
 And miles to go before I sleep,
 And miles to go before I sleep.""",
+
         "translation_bn": """এই বন কার, তা আমি জানি বলে মনে হয়।
 তবে তার বাড়ি তো গ্রামে;
 সে আমাকে এখানে থেমে থাকতে দেখবে না
@@ -118,10 +165,20 @@ And miles to go before I sleep.""",
 কিন্তু আমার কিছু প্রতিশ্রুতি রাখার আছে,
 আর ঘুমানোর আগে আমাকে আরও অনেক পথ যেতে হবে,
 আর ঘুমানোর আগে আমাকে আরও অনেক পথ যেতে হবে।""",
+
         "summary_bn": "রবার্ট ফ্রস্টের লেখা এই কবিতাটিতে প্রকৃতির সৌন্দর্য ও মানুষের সামাজিক দায়িত্ব এবং কর্তব্যের মধ্যকার দ্বন্দ্ব ফুটে উঠেছে।",
+
         "theme": "Nature vs. Duty, Temptation vs. Responsibility",
-        "devices": ["Alliteration", "Imagery", "Repetition", "Personification"],
+
+        "devices": [
+            "Alliteration",
+            "Imagery",
+            "Repetition",
+            "Personification"
+        ],
+
         "analysis": "প্রকৃতির সৌন্দর্য মানুষকে যেভাবে মন্ত্রমুগ্ধ করে এবং তার দায়িত্ববোধকে ভুলিয়ে দিতে চায়, তার এক চমৎকার রূপায়ন এখানে রয়েছে।",
+
         "questions": [
             {
                 "set": "Standard Set",
@@ -131,18 +188,35 @@ And miles to go before I sleep.""",
             }
         ]
     },
+
+
+    # =====================================================
+    # 3. TO HELEN
+    # =====================================================
+
     "To Helen - Edgar Allan Poe": {
+
         "poet": "Edgar Allan Poe (1809-1849)",
+
         "original": """Helen, thy beauty is to me
 Like those Nicean barks of yore,
 That gently, o'er a perfumed sea,
 The weary, way-worn wanderer bore
 To his own native shore.""",
+
         "translation_bn": "হেলেন, তোমার সৌন্দর্য আমার কাছে...",
+
         "summary_bn": "Helen এর সৌন্দর্য ক্লান্ত নাবিককে যেমন ঘরে ফেরায়...",
+
         "theme": "Ideal Beauty, Classical Allusion",
-        "devices": ["Simile", "Allusion"],
+
+        "devices": [
+            "Simile",
+            "Allusion"
+        ],
+
         "analysis": "১৫ লাইনের ৩টি stanza...",
+
         "questions": [
             {
                 "set": "Standard Set",
@@ -152,14 +226,31 @@ To his own native shore.""",
             }
         ]
     },
+
+
+    # =====================================================
+    # 4. THE COLLAR
+    # =====================================================
+
     "The Collar - George Herbert": {
+
         "poet": "George Herbert (1593-1633)",
+
         "original": "I struck the board, and cried, No more...",
+
         "translation_bn": "আমি টেবিলে আঘাত করলাম...",
+
         "summary_bn": "কবি ঈশ্বরের প্রতি বিদ্রোহ করে স্বাধীন হতে চান...",
+
         "theme": "Spiritual Rebellion vs Submission",
-        "devices": ["Metaphor", "Pun"],
+
+        "devices": [
+            "Metaphor",
+            "Pun"
+        ],
+
         "analysis": "৩৬ লাইন, irregular rhyme...",
+
         "questions": [
             {
                 "set": "Standard Set",
@@ -169,14 +260,31 @@ To his own native shore.""",
             }
         ]
     },
+
+
+    # =====================================================
+    # 5. THE SOLITARY REAPER
+    # =====================================================
+
     "The Solitary Reaper - William Wordsworth": {
+
         "poet": "William Wordsworth (1770-1850)",
+
         "original": "Behold her, single in the field...",
+
         "translation_bn": "তাকে দেখো, মাঠে একা দাঁড়িয়ে আছে...",
+
         "summary_bn": "স্কটল্যান্ডের পাহাড়ে একা এক মেয়েকে ফসল কাটতে দেখেন...",
+
         "theme": "Beauty of Solitude, Music and Memory",
-        "devices": ["Simile", "Alliteration"],
+
+        "devices": [
+            "Simile",
+            "Alliteration"
+        ],
+
         "analysis": "৪টি stanza, Ballad form...",
+
         "questions": [
             {
                 "set": "Standard Set",
@@ -188,79 +296,266 @@ To his own native shore.""",
     }
 }
 
+
+# =========================================================
+# LITERARY TERMS
+# =========================================================
+
 literary_terms = {
+
     "Simile": "Like, as diye tulona.",
+
     "Metaphor": "Shorasori tulona.",
+
     "Alliteration": "Ek-i sound er punarabritti.",
+
     "Allusion": "Itihas/puraner reference.",
+
     "Conceit": "Chomotprod tulona.",
+
     "Imagery": "Chitrakalpo"
 }
 
+
+# =========================================================
+# APP TITLE
+# =========================================================
+
 st.title("📚 Poetry Lab - English Literature App")
+
 st.caption("For your syllabus | Made by Swapon")
 
+
+# =========================================================
+# SIDEBAR
+# =========================================================
+
 with st.sidebar:
+
     st.header("📖 Select Poem")
-    choice = st.selectbox("Choose:", list(poems.keys()))
+
+    choice = st.selectbox(
+        "Choose:",
+        list(poems.keys()),
+        key="poem_selector"
+    )
+
     st.divider()
+
     st.header("🔍 Literary Terms")
-    term = st.selectbox("Quick Dictionary:", ["Select"] + list(literary_terms.keys()))
+
+    term = st.selectbox(
+        "Quick Dictionary:",
+        ["Select"] + list(literary_terms.keys()),
+        key="literary_term_selector"
+    )
+
     if term != "Select":
-        st.info(f"**{term}:** {literary_terms[term]}")
+
+        st.info(
+            f"**{term}:** {literary_terms[term]}"
+        )
+
+
+# =========================================================
+# GET SELECTED POEM DATA
+# =========================================================
 
 data = poems[choice]
+
+
+# =========================================================
+# MAIN LAYOUT
+# =========================================================
+
 col1, col2 = st.columns([2, 1])
 
+
+# =========================================================
+# LEFT COLUMN
+# =========================================================
+
 with col1:
+
     st.subheader(choice)
-    st.write(f"**Poet:** {data['poet']}")
-    
-    tab1, tab2 = st.tabs(["📜 Original Poem", "🇧🇩 Bangla Translation"])
+
+    st.write(
+        f"**Poet:** {data['poet']}"
+    )
+
+
+    # -----------------------------------------------------
+    # TABS
+    # -----------------------------------------------------
+
+    tab1, tab2 = st.tabs(
+        [
+            "📜 Original Poem",
+            "🇧🇩 Bangla Translation"
+        ]
+    )
+
+
+    # -----------------------------------------------------
+    # ORIGINAL POEM
+    # IMPORTANT FIX:
+    # Dynamic key prevents old poem from remaining visible.
+    # -----------------------------------------------------
+
     with tab1:
-        st.text_area("Original Text", data["original"], height=250, key="orig")
+
+        st.text_area(
+            "Original Text",
+            value=data["original"],
+            height=300,
+            key=f"original_{choice}"
+        )
+
+
+    # -----------------------------------------------------
+    # BANGLA TRANSLATION
+    # IMPORTANT FIX:
+    # Dynamic key prevents old translation from remaining.
+    # -----------------------------------------------------
+
     with tab2:
-        st.text_area("বাংলা অনুবাদ", data["translation_bn"], height=250, key="trans")
-        
-    st.markdown(f"**🇧🇩 বাংলায় সারমর্ম:**\n\n{data['summary_bn']}")
-    st.markdown(f"**💡 Analysis:** {data['analysis']}")
-    
+
+        st.text_area(
+            "বাংলা অনুবাদ",
+            value=data["translation_bn"],
+            height=300,
+            key=f"translation_{choice}"
+        )
+
+
+    # -----------------------------------------------------
+    # SUMMARY
+    # -----------------------------------------------------
+
+    st.markdown(
+        f"**🇧🇩 বাংলায় সারমর্ম:**\n\n{data['summary_bn']}"
+    )
+
+
+    # -----------------------------------------------------
+    # ANALYSIS
+    # -----------------------------------------------------
+
+    st.markdown(
+        f"**💡 Analysis:** {data['analysis']}"
+    )
+
+
+    # =====================================================
+    # IMPORTANT Q&A
+    # =====================================================
+
     if choice == "Echo - Christina Rossetti":
+
         st.divider()
+
         st.markdown("### 📝 Important Q&A")
+
         st.markdown("""
 **What is the significance of the title 'Echo'?**
+
 In Christina Rossetti's poem 'Echo', the title carries a deep symbolic meaning representing lost love and unfulfilled longing.
         """)
+
+
     elif choice == "Stopping by Woods on a Snowy Evening - Robert Frost":
+
         st.divider()
+
         st.markdown("### 📝 Important Q&A")
+
         st.markdown("""
 **What is the central theme of the poem?**
+
 The central theme is the conflict between the pull of nature's beauty and the burden of human responsibilities and duties.
         """)
 
+
+# =========================================================
+# RIGHT COLUMN
+# =========================================================
+
 with col2:
-    st.success(f"**Theme:** {data['theme']}")
+
+    st.success(
+        f"**Theme:** {data['theme']}"
+    )
+
+
     st.write("**Literary Devices:**")
-    for d in data["devices"]:
-        st.write(f"- {d}")
-    
+
+    for device in data["devices"]:
+
+        st.write(
+            f"- {device}"
+        )
+
+
+    # -----------------------------------------------------
+    # EXAM QUESTIONS
+    # -----------------------------------------------------
+
     st.warning("**Exam Questions:**")
+
     for item in data["questions"]:
+
         if isinstance(item, dict):
-            st.markdown(f"**{item['set']}**")
-            st.markdown(item['q1'])
-            st.markdown(item['q2'])
-            st.markdown(item['q3'])
+
+            st.markdown(
+                f"**{item['set']}**"
+            )
+
+            st.markdown(
+                item["q1"]
+            )
+
+            st.markdown(
+                item["q2"]
+            )
+
+            st.markdown(
+                item["q3"]
+            )
+
             st.divider()
 
+
+# =========================================================
+# QUICK QUIZ
+# =========================================================
+
 st.divider()
+
 st.subheader("🎯 Quick Quiz")
-q = st.radio("Which poem ends with 'My Lord' as submission?", ["Echo", "The Collar", "The Solitary Reaper", "To Helen", "Stopping by Woods on a Snowy Evening"], index=None)
+
+
+q = st.radio(
+    "Which poem ends with 'My Lord' as submission?",
+    [
+        "Echo",
+        "The Collar",
+        "The Solitary Reaper",
+        "To Helen",
+        "Stopping by Woods on a Snowy Evening"
+    ],
+    index=None,
+    key="quick_quiz"
+)
+
+
 if q:
+
     if q == "The Collar":
+
         st.balloons()
+
         st.success("Correct!")
+
     else:
+
         st.error("Try again!")
