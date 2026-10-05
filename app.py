@@ -2,6 +2,26 @@ import streamlit as st
 
 st.set_page_config(page_title="Poetry Lab - For English Dept", page_icon="📚", layout="wide")
 
+# Custom CSS to increase font size across the app
+st.markdown("""
+    <style>
+    /* Main body text and questions font size */
+    p, li, .stMarkdown {
+        font-size: 18px !important;
+    }
+    /* Headers font size */
+    h1 {
+        font-size: 38px !important;
+    }
+    h2 {
+        font-size: 30px !important;
+    }
+    h3 {
+        font-size: 24px !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 poems = {
     "Echo - Christina Rossetti": {
         "poet": "Christina Rossetti (1830-1894)",
@@ -54,9 +74,24 @@ As long ago, my love, how long ago.""",
         "devices": ["Apostrophe", "Repetition (Come)", "Alliteration", "Paradox (too sweet, too bitter sweet)", "Imagery"],
         "analysis": "৩টি stanza, Rhyme: AABCBC। Elegiac tone। স্বপ্নই একমাত্র জায়গা যেখানে মৃত ভালোবাসা জীবিত হয়।",
         "questions": [
-            "\n1. (a) What is the significance of the title 'Echo' in the poem? / কবিতার নামের সঙ্গে 'Echo' বা প্রতিধ্বনির প্রতীকী বিষয়টি কীভাবে জড়িত? [3]\n   (b) How does the poem's stanzaic structure and rhythm reflect the sorrowful tone of the speaker? / কবিতার স্তবকের গঠন বা ছন্দ কীভাবে কবির মনের ভেতরের দুঃখের সুরটিকে ফুটিয়ে তোলে? [3]\n   (c) How are unfulfilled love and the deep pain of losing a loved one portrayed in this poem? / অপূর্ণ ভালোবাসা এবং প্রিয়জনকে চিরতরে হারানোর বেদনা এই কবিতায় কীভাবে ফুটে উঠেছে? [4]",
-            "\n1. (a) How does the line 'Pulse for pulse, breath for breath' express the deep desire to get back the lost loved one beyond life and death? / 'Pulse for pulse, breath for breath'— এই লাইনটির মাধ্যমে জীবন ও মৃত্যুর দেয়াল পেরিয়ে প্রিয়জনকে কাছে পাওয়ার আকুলতা কীভাবে প্রকাশ পেয়েছে? [3]\n   (b) How does the poet use 'dreams' as a medium to bring back her lost loved one? / কবিতায় কবি প্রিয়জনকে ফিরে পাওয়ার জন্য 'স্বপ্ন' (dream)-কে একটি মাধ্যম হিসেবে কীভাবে ব্যবহার করেছেন? [3]\n   (c) How does the paradox 'too sweet, too bitter sweet' reflect the speaker's complex psychological state? / কবিতায় ব্যবহৃত বিপরীতধর্মী কথা যেমন 'too sweet, too bitter sweet'— কবির জটিল মনস্তাত্ত্বিক অবস্থাকে কীভাবে তুলে ধরে? [4]",
-            "\n1. (a) What is the overall tone of the poem, and what kind of feeling does it evoke in the reader? / পুরো কবিতাটির সামগ্রিক সুর বা ভাব কেমন এবং এটি পড়ার সময় পাঠকের মনে কেমন অনুভূতি জাগায়? [3]\n   (b) Identify and explain any two literary devices used by the poet in the first stanza. / কবিতার প্রথম স্তবকে কবি যে কোনো দুটি গুরুত্বপূর্ণ অলংকার বা লিটারারি ডিভাইস ব্যবহার করেছেন, তা সহজ ভাষায় বুঝিয়ে লেখো। [3]\n   (c) Discuss 'Echo' as a Victorian elegiac poem where memory and sighs are deeply explored. / একটি ভিক্টোরিয়ান যুগের বিরহের কবিতা বা Elegy হিসেবে 'Echo' কবিতায় স্মৃতি এবং দীর্ঘশ্বাসের বিষয়টি কতটা গভীরভাবে ফুটিয়ে তোলা হয়েছে? [4]"
+            {
+                "set": "Set A",
+                "q1": "(a) What is the significance of the title 'Echo' in the poem? / কবিতার নামের সঙ্গে 'Echo' বা প্রতিধ্বনির প্রতীকী বিষয়টি কীভাবে জড়িত? [3]",
+                "q2": "(b) How does the poem's stanzaic structure and rhythm reflect the sorrowful tone of the speaker? / কবিতার স্তবকের গঠন বা ছন্দ কীভাবে কবির মনের ভেতরের দুঃখের সুরটিকে ফুটিয়ে তোলে? [3]",
+                "q3": "(c) How are unfulfilled love and the deep pain of losing a loved one portrayed in this poem? / অপূর্ণ ভালোবাসা এবং প্রিয়জনকে চিরতরে হারানোর বেদনা এই কবিতায় কীভাবে ফুটে উঠেছে? [4]"
+            },
+            {
+                "set": "Set B",
+                "q1": "(a) How does the line 'Pulse for pulse, breath for breath' express the deep desire to get back the lost loved one beyond life and death? / 'Pulse for pulse, breath for breath'— এই লাইনটির মাধ্যমে জীবন ও মৃত্যুর দেয়াল পেরিয়ে প্রিয়জনকে কাছে পাওয়ার আকুলতা কীভাবে প্রকাশ পেয়েছে? [3]",
+                "q2": "(b) How does the poet use 'dreams' as a medium to bring back her lost loved one? / কবিতায় কবি প্রিয়জনকে ফিরে পাওয়ার জন্য 'স্বপ্ন' (dream)-কে একটি মাধ্যম হিসেবে কীভাবে ব্যবহার করেছেন? [3]",
+                "q3": "(c) How does the paradox 'too sweet, too bitter sweet' reflect the speaker's complex psychological state? / কবিতায় ব্যবহৃত বিপরীতধর্মী কথা যেমন 'too sweet, too bitter sweet'— কবির জটিল মনস্তাত্ত্বিক অবস্থাকে কীভাবে তুলে ধরে? [4]"
+            },
+            {
+                "set": "Set C",
+                "q1": "(a) What is the overall tone of the poem, and what kind of feeling does it evoke in the reader? / পুরো কবিতাটির সামগ্রিক সুর বা ভাব কেমন এবং এটি পড়ার সময় পাঠকের মনে কেমন অনুভূতি জাগায়? [3]",
+                "q2": "(b) Identify and explain any two literary devices used by the poet in the first stanza. / কবিতার প্রথম স্তবকে কবি যে কোনো দুটি গুরুত্বপূর্ণ অলংকার বা লিটারারি ডিভাইস ব্যবহার করেছেন, তা সহজ ভাষায় বুঝিয়ে লেখো। [3]",
+                "q3": "(c) Discuss 'Echo' as a Victorian elegiac poem where memory and sighs are deeply explored. / একটি ভিক্টোরিয়ান যুগের বিরহের কবিতা বা Elegy হিসেবে 'Echo' কবিতায় স্মৃতি এবং দীর্ঘশ্বাসের বিষয়টি কতটা গভীরভাবে ফুটিয়ে তোলা হয়েছে? [4]"
+            }
         ]
     },
     "To Helen - Edgar Allan Poe": {
@@ -99,7 +134,14 @@ Are Holy-Land!""",
         "theme": "Ideal Beauty, Classical Allusion, Love as Salvation",
         "devices": ["Simile (Like Nicean barks)", "Allusion (Greece, Rome, Psyche)", "Alliteration (weary, way-worn)", "Metaphor"],
         "analysis": "১৫ লাইনের ৩টি stanza। Helen হলো Jane Stanard, যিনি Poe কে মাতৃস্নেহ দিয়েছিলেন। Neo-classical reference এ ভরা।",
-        "questions": ["Why compare Helen to Nicean barks?", "Explain 'the glory that was Greece...'", "Function of classical allusions?"]
+        "questions": [
+            {
+                "set": "Standard Set",
+                "q1": "Why compare Helen to Nicean barks?",
+                "q2": "Explain 'the glory that was Greece...'",
+                "q3": "Function of classical allusions?"
+            }
+        ]
     },
     "The Collar - George Herbert": {
         "poet": "George Herbert (1593-1633) - Metaphysical Poet",
@@ -121,7 +163,14 @@ And I replied, My Lord.""",
         "theme": "Spiritual Rebellion vs Submission, Divine Love",
         "devices": ["Metaphor (Collar = restraint)", "Conceit (rope of sands)", "Dramatic Monologue", "Pun", "Biblical Allusion"],
         "analysis": "৩৬ লাইন, irregular rhyme। শেষ ২ লাইনে সব রাগ শান্ত। The Temple কাব্যগ্রন্থের কবিতা।",
-        "questions": ["What does 'Collar' symbolize?", "Is this a spiritual autobiography?", "Explain 'rope of sands'"]
+        "questions": [
+            {
+                "set": "Standard Set",
+                "q1": "What does 'Collar' symbolize?",
+                "q2": "Is this a spiritual autobiography?",
+                "q3": "Explain 'rope of sands'"
+            }
+        ]
     },
     "The Solitary Reaper - William Wordsworth": {
         "poet": "William Wordsworth (1770-1850)",
@@ -143,7 +192,14 @@ Long after it was heard no more.""",
         "theme": "Beauty of Solitude, Music and Memory, Nature",
         "devices": ["Simile (like Nightingale)", "Alliteration", "Romantic Imagery", "Hyperbole"],
         "analysis": "৪টি stanza, Ballad form, Rhyme: ABABCCDD। Wilkinson এর travelogue পড়ে লেখা।",
-        "questions": ["How does Wordsworth romanticize the reaper?", "Why music stays long after?", "Discuss as Romantic poem."]
+        "questions": [
+            {
+                "set": "Standard Set",
+                "q1": "How does Wordsworth romanticize the reaper?",
+                "q2": "Why music stays long after?",
+                "q3": "Discuss as Romantic poem."
+            }
+        ]
     }
 }
 
@@ -189,9 +245,18 @@ with col2:
     st.write("**Literary Devices:**")
     for d in data["devices"]:
         st.write(f"- {d}")
+    
     st.warning("**Exam Questions:**")
-    for q in data["questions"]:
-        st.markdown(f"*{q}*\n")
+    
+    for item in data["questions"]:
+        if isinstance(item, dict):
+            st.markdown(f"**{item['set']}**")
+            st.markdown(f"1. {item['q1']}")
+            st.markdown(f"2. {item['q2']}")
+            st.markdown(f"3. {item['q3']}")
+            st.divider()
+        else:
+            st.markdown(f"- {item}")
 
 st.divider()
 st.subheader("🎯 Quick Quiz")
