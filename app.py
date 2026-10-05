@@ -76,19 +76,19 @@ As long ago, my love, how long ago.""",
        
        "questions": [
             {
-                
+                "set": "Set A",
                 "q1": "(a) What is the significance of the title 'Echo' in the poem? / কবিতার নামের সঙ্গে 'Echo' বা প্রতিধ্বনির প্রতীকী বিষয়টি কীভাবে জড়িত? [3]",
                 "q2": "(b) How does the poem's stanzaic structure and rhythm reflect the sorrowful tone of the speaker? / কবিতার স্তবকের গঠন বা ছন্দ কীভাবে কবির মনের ভেতরের দুঃখের সুরটিকে ফুটিয়ে তোলে? [3]",
                 "q3": "(c) How are unfulfilled love and the deep pain of losing a loved one portrayed in this poem? / অপূর্ণ ভালোবাসা এবং প্রিয়জনকে চিরতরে হারানোর বেদনা এই কবিতায় কীভাবে ফুটে উঠেছে? [4]"
             },
             {
-               
+                "set": "Set B",
                 "q1": "(a) How does the line 'Pulse for pulse, breath for breath' express the deep desire to get back the lost loved one beyond life and death? / 'Pulse for pulse, breath for breath'— এই লাইনটির মাধ্যমে জীবন ও মৃত্যুর দেয়াল পেরিয়ে প্রিয়জনকে কাছে পাওয়ার আকুলতা কীভাবে প্রকাশ পেয়েছে? [3]",
                 "q2": "(b) How does the poet use 'dreams' as a medium to bring back her lost loved one? / কবিতায় কবি প্রিয়জনকে ফিরে পাওয়ার জন্য 'স্বপ্ন' (dream)-কে একটি মাধ্যম হিসেবে কীভাবে ব্যবহার করেছেন? [3]",
                 "q3": "(c) How does the paradox 'too sweet, too bitter sweet' reflect the speaker's complex psychological state? / কবিতায় ব্যবহৃত বিপরীতধর্মী কথা যেমন 'too sweet, too bitter sweet'— কবির জটিল মনস্তাত্ত্বিক অবস্থাকে কীভাবে তুলে ধরে? [4]"
             },
             {
-              
+                "set": "Set C",
                 "q1": "(a) What is the overall tone of the poem, and what kind of feeling does it evoke in the reader? / পুরো কবিতাটির সামগ্রিক সুর বা ভাব কেমন এবং এটি পড়ার সময় পাঠকের মনে কেমন অনুভূতি জাগায়? [3]",
                 "q2": "(b) Identify and explain any two literary devices used by the poet in the first stanza. / কবিতার প্রথম স্তবকে কবি যে কোনো দুটি গুরুত্বপূর্ণ অলংকার বা লিটারারি ডিভাইস ব্যবহার করেছেন, তা সহজ ভাষায় বুঝিয়ে লেখো। [3]",
                 "q3": "(c) Discuss 'Echo' as a Victorian elegiac poem where memory and sighs are deeply explored. / একটি ভিক্টোরিয়ান যুগের বিরহের কবিতা বা Elegy হিসেবে 'Echo' কবিতায় স্মৃতি এবং দীর্ঘশ্বাসের বিষয়টি কতটা গভীরভাবে ফুটিয়ে তোলা হয়েছে? [4]"
