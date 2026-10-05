@@ -65,16 +65,16 @@ As long ago, my love, how long ago.""",
 স্পন্দনের বিনিময়ে স্পন্দন, নিশ্বাসের বিনিময়ে নিশ্বাস:
 ধীরে কথা বলো, ঝুঁকে পড়ো কাছে,
 অনেক দিন আগে যেমন ছিলে, আমার ভালোবাসা, কত দিন আগে।""",
-        "summary_bn": """ক্রিস্টিনা রোসেটির (Christina Rossetti) লেখা 'Echo' কবিতাটিতে কবি তাঁর হারিয়ে যাওয়া ভালোবাসার স্মৃতি এবং প্রিয়জনকে স্বপ্নে ফিরে পাওয়ার আকুল আবেদন জানিয়েছেন। এই কবিতায় 'Echo' বা প্রতিধ্বনি একটি অত্যন্ত গভীর প্রতীকী অর্থ বহন করে। প্রতিধ্বনিকে যেমন দূর থেকে শোনা যায় কিন্তু কখনো হাত দিয়ে ধরে রাখা যায় না, ঠিক তেমনি আমাদের জীবন থেকে হারিয়ে যাওয়া স্মৃতি বা মানুষগুলোও তেমনি—তারা দূরত্বে থেকে যায়, তাদের কেবল অনুভূতি, শব্দ কিংবা ছায়া হিসেবেই অনুভব করা যায়, কিন্তু বাস্তবে তাদের আর কখনো কাছে পাওয়া সম্ভব নয়।""",
+        "summary_bn": "ক্রিস্টিনা রোসেটির লেখা 'Echo' কবিতাটিতে কবি তাঁর হারিয়ে যাওয়া ভালোবাসার স্মৃতি এবং প্রিয়জনকে স্বপ্নে ফিরে পাওয়ার আকুল আবেদন জানিয়েছেন।",
         "theme": "Loss, Memory, Longing, Death and Dream",
-        "devices": ["Apostrophe", "Repetition (Come)", "Alliteration", "Paradox (too sweet, too bitter sweet)", "Imagery"],
-        "analysis": """ক্রিস্টিনা রোসেটির (Christina Rossetti) বিখ্যাত 'Echo' কবিতাটি কাঠামোগত এবং ভাবগত উভয় দিক থেকেই অত্যন্ত সুনিপুণ ও গভীর একটি সাহিত্যকর্ম। কবিতাটিতে মোট তিনটি স্তবক রয়েছে এবং এর ছন্দ বিন্যাস বা রাইম স্কিম হলো AABCBC।""",
+        "devices": ["Apostrophe", "Repetition", "Alliteration", "Imagery"],
+        "analysis": "কবিতাটিতে মোট তিনটি স্তবক রয়েছে এবং এর ছন্দ বিন্যাস AABCBC।",
         "questions": [
             {
                 "set": "Set A",
-                "q1": "(a) What is the significance of the title 'Echo' in the poem?",
-                "q2": "(b) How does the poem's stanzaic structure reflect the sorrowful tone?",
-                "q3": "(c) How are unfulfilled love and the deep pain portrayed?"
+                "q1": "(a) What is the significance of the title 'Echo'?",
+                "q2": "(b) How does the stanzaic structure reflect the sorrowful tone?",
+                "q3": "(c) How are unfulfilled love and pain portrayed?"
             }
         ]
     },
@@ -118,10 +118,10 @@ And miles to go before I sleep.""",
 কিন্তু আমার কিছু প্রতিশ্রুতি রাখার আছে,
 আর ঘুমানোর আগে আমাকে আরও অনেক পথ যেতে হবে,
 আর ঘুমানোর আগে আমাকে আরও অনেক পথ যেতে হবে।""",
-        "summary_bn": """রবার্ট ফ্রস্টের লেখা 'Stopping by Woods on a Snowy Evening' কবিতাটি একটি অত্যন্ত জনপ্রিয় কবিতা। এক শীতের সন্ধ্যায় বরফে ঢাকা এক সুন্দর ও নির্জন বনের সৌন্দর্যে মুগ্ধ হয়ে কবি সেখানে কিছুক্ষণ থামেন। প্রকৃতির শান্ত ও মোহনীয় রূপ তাঁকে সাময়িকভাবে সবকিছু ভুলিয়ে রাখতে চায়। কিন্তু তাঁর ঘোড়ার ঘণ্টা নাড়ার মাধ্যমে তাঁর চেতনা ফিরে আসে। কবি বুঝতে পারেন যে প্রকৃতির মোহে মগ্ন থাকার সময় তাঁর নেই, কারণ জীবনের অনেক দায়িত্ব ও কর্তব্য (promises to keep) তাঁকে পালন করতে হবে।""",
-        "theme": "Nature vs. Duty, Temptation vs. Responsibility, Death and Life",
+        "summary_bn": "রবার্ট ফ্রস্টের লেখা এই কবিতাটিতে প্রকৃতির সৌন্দর্য ও মানুষের সামাজিক দায়িত্ব এবং কর্তব্যের মধ্যকার দ্বন্দ্ব ফুটে উঠেছে।",
+        "theme": "Nature vs. Duty, Temptation vs. Responsibility",
         "devices": ["Alliteration", "Imagery", "Repetition", "Personification"],
-        "analysis": """রবার্ট ফ্রস্টের এই কবিতাটি তার সহজ ভাষার অন্তরালে গভীর জীবনদর্শন ধারণ করে। প্রকৃতির সৌন্দর্য মানুষকে যেভাবে মন্ত্রমুগ্ধ করে এবং তার দায়িত্ববোধকে ভুলিয়ে দিতে চায়, তার এক চমৎকার রূপায়ন এখানে রয়েছে।""",
+        "analysis": "প্রকৃতির সৌন্দর্য মানুষকে যেভাবে মন্ত্রমুগ্ধ করে এবং তার দায়িত্ববোধকে ভুলিয়ে দিতে চায়, তার এক চমৎকার রূপায়ন এখানে রয়েছে।",
         "questions": [
             {
                 "set": "Standard Set",
@@ -189,12 +189,12 @@ To his own native shore.""",
 }
 
 literary_terms = {
-    "Simile": "Like, as দিয়ে তুলনা। Ex: Like Nicean barks",
-    "Metaphor": "সরাসরি তুলনা। Ex: That time of year...",
-    "Alliteration": "একই sound এর পুনরাবৃত্তি। Ex: weary, way-worn",
-    "Allusion": "ইতিহাস/পুরাণের reference। Ex: Greece, Rome",
-    "Conceit": "চমকপ্রদ তুলনা। Ex: rope of sands",
-    "Imagery": "চিত্রকল্প"
+    "Simile": "Like, as diye tulona.",
+    "Metaphor": "Shorasori tulona.",
+    "Alliteration": "Ek-i sound er punarabritti.",
+    "Allusion": "Itihas/puraner reference.",
+    "Conceit": "Chomotprod tulona.",
+    "Imagery": "Chitrakalpo"
 }
 
 st.title("📚 Poetry Lab - English Literature App")
@@ -225,20 +225,19 @@ with col1:
     st.markdown(f"**🇧🇩 বাংলায় সারমর্ম:**\n\n{data['summary_bn']}")
     st.markdown(f"**💡 Analysis:** {data['analysis']}")
     
-    # Specific conditional Q&A display based on selected poem
     if choice == "Echo - Christina Rossetti":
         st.divider()
         st.markdown("### 📝 Important Q&A")
         st.markdown("""
-**What is the significance of the title 'Echo' in the poem? / কবিতার নামের সঙ্গে 'Echo' বা প্রতিধ্বনির প্রতীকী বিষয়টি কীভাবে জড়িত? [3]**
-In Christina Rossetti's poem 'Echo', the title carries a deep symbolic meaning. Just like a real echo can be heard from far away but can never be touched or held, the poet's lost loved one is also permanently gone and out of reach.
+**What is the significance of the title 'Echo'?**
+In Christina Rossetti's poem 'Echo', the title carries a deep symbolic meaning representing lost love and unfulfilled longing.
         """)
     elif choice == "Stopping by Woods on a Snowy Evening - Robert Frost":
         st.divider()
         st.markdown("### 📝 Important Q&A")
         st.markdown("""
-**What is the central theme of the poem? / কবিতার মূল থিম কী? [3]**
-The central theme of Robert Frost's poem is the conflict between the pull of nature's beauty and the burden of human responsibilities and duties.
+**What is the central theme of the poem?**
+The central theme is the conflict between the pull of nature's beauty and the burden of human responsibilities and duties.
         """)
 
 with col2:
@@ -255,8 +254,6 @@ with col2:
             st.markdown(item['q2'])
             st.markdown(item['q3'])
             st.divider()
-        else:
-            st.markdown(f"- {item}")
 
 st.divider()
 st.subheader("🎯 Quick Quiz")
