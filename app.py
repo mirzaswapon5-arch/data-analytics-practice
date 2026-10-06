@@ -151,45 +151,26 @@ And miles to go before I sleep.""",
 সে আমাকে এখানে থেমে থাকতে দেখবে না
 তার বনে বরফ জমতে দেখার জন্য।
 
-আমার ছোট ঘোড়াটি নিশ্চয়ই অদ্ভুত মনে করছে
+আমার ছোট ঘোড়াটি নিশ্চয়ই অদ্ভুত মনে করছে
 কাছাকাছি কোনো ফার্মহাউস না থাকা সত্ত্বেও থেমে থাকাকে
-বন এবং জমে যাওয়া হ্রদের মাঝখানে—
+বন এবং জমে যাওয়া হ্রদের মাঝখানে—
 বছরের সবচেয়ে অন্ধকার সন্ধ্যায়।
 
-সে তার জিনের ঘণ্টা নাড়িয়ে দেয়
+সে তার জিনের ঘণ্টা নাড়িয়ে দেয়
 কোনো ভুল হলো কি না তা জিজ্ঞেস করার জন্য।
 অন্য যে শব্দটুকু আছে তা হলো মৃদু বাতাস
-আর তুলোর মতো নরম বরফ পড়ার শব্দ।
+আর তুলোর মতো নরম বরফ পড়ার শব্দ।
 
 বনগুলো সুন্দর, অন্ধকার আর গভীর,
 কিন্তু আমার কিছু প্রতিশ্রুতি রাখার আছে,
 আর ঘুমানোর আগে আমাকে আরও অনেক পথ যেতে হবে,
 আর ঘুমানোর আগে আমাকে আরও অনেক পথ যেতে হবে।""",
 
-    "summary_bn":"""রবার্ট ফ্রস্টের বিখ্যাত কবিতা 'Stopping by Woods on a Snowy Evening' এ প্রকৃতির মোহময় সৌন্দর্য এবং মানুষের বাস্তব জীবনের সামাজিক দায়িত্ব ও প্রতিশ্রুতির মধ্যকার দ্বন্দ্ব সুন্দরভাবে ফুটে উঠেছে।"
-শীতের এক সন্ধ্যায় তুষারাবৃত সুন্দর বনে একা দাঁড়িয়ে লেখক প্রকৃতির শান্ত ও মনোরম সৌন্দর্যে বিমোহিত হন. '
+        "summary_bn": """রবার্ট ফ্রস্টের বিখ্যাত কবিতা 'Stopping by Woods on a Snowy Evening'-এ প্রকৃতির মোহময় সৌন্দর্য এবং মানুষের বাস্তব জীবনের সামাজিক দায়িত্ব ও প্রতিশ্রুতির মধ্যকার দ্বন্দ্ব সুন্দরভাবে ফুটে উঠেছে। শীতের এক সন্ধ্যায় তুষারাবৃত সুন্দর বনে একা দাঁড়িয়ে লেখক প্রকৃতির শান্ত ও মনোরম সৌন্দর্যে বিমোহিত হন। তিনি কিছু সময় সেখানে কাটিয়ে প্রকৃতির নীরবতা উপভোগ করতে চান। কিন্তু তার মন তাকে মনে করিয়ে দেয় যে, তার জীবনে বহু গুরুত্বপূর্ণ দায়িত্ব ও কর্তব্য বাকি রয়েছে। কবিতাটির শেষ দুটি পংক্তি—“কিন্তু আমার ঘুমানোর আগে অনেক মাইল পথ যেতে হবে”—অত্যন্ত প্রতীকী। এখানে ‘পথ’ হলো মানুষের জীবনযাত্রা এবং ‘ঘুম’ হলো মৃত্যু বা চূড়ান্ত বিশ্রামের রূপক। কবিতাটি আমাদের মনে করিয়ে দেয় যে, জীবনের চারপাশের সৌন্দর্য আমাদের যতই টানে না কেন, একজন দায়িত্বশীল মানুষকে তার প্রতিশ্রুতি এবং কর্তব্য পালনের জন্যই এগিয়ে যেতে হয়।
 
-'তিনি কিছু সময় সেখানে কাটিয়ে প্রকৃতির নীরবতা উপভোগ করতে চান। কিন্তু তার মন তাকে মনে করিয়ে দেয় যে, তার জীবনে বহু গুরুত্বপূর্ণ দায়িত্ব ও কর্তব্য বাকি রয়েছে। কবিতাটির শেষ দুটি পংক্তি—“কিন্তু আমার ঘুমানোর আগে অনেক মাইল পথ যেতে হবে”—অত্যন্ত প্রতীকী। এখানে ‘পথ’ হলো মানুষের জীবনযাত্রা এবং ‘ঘুম’ হলো মৃত্যু বা চূড়ান্ত বিশ্রামের রূপক।'
+Robert Frost's famous poem "Stopping by Woods on a Snowy Evening" beautifully captures the timeless conflict between the alluring beauty of nature and the heavy burdens of human social duties and responsibilities. On a dark, snowy evening, a traveler stops his horse by the woods to watch them fill up with snow. He is deeply captivated by the serene, quiet, and enchanting beauty of the winter landscape, tempted to linger in the peaceful isolation. However, his conscience quickly reminds him of the real world and his obligations. The famous concluding lines—"And miles to go before I sleep"—carry a profound symbolic weight, where "miles" represent the journey of life and "sleep" symbolizes rest or death. Ultimately, the poem illustrates how human life is driven by commitments. No matter how much nature beckons us to pause and escape, our earthly duties and promises must be fulfilled before our journey ends.""",
 
-
-
-'কবিতাটি আমাদের মনে করিয়ে দেয় যে, জীবনের চারপাশের সৌন্দর্য আমাদের যতই টানে না কেন, একজন দায়িত্বশীল মানুষকে তার প্রতিশ্রুতি এবং কর্তব্য পালনের জন্যই এগিয়ে যেতে হয়।'
-
----
-
-
-
-'Robert Frost's famous poem **"Stopping by Woods on a Snowy Evening" beautifully captures the timeless conflict between the alluring beauty of nature and the heavy burdens of human social duties and responsibilities.
-
-'On a dark, snowy evening, a traveler stops his horse by the woods to watch them fill up with snow.'
-
-
-
-'He is deeply captivated by the serene, quiet, and enchanting beauty of the winter landscape, tempted to linger in the peaceful isolation.' However, his conscience quickly reminds him of the real world and his obligations. The famous concluding lines "And miles to go before I sleep" carry a profound symbolic weight, where "miles" represent the journey of life and "sleep" symbolizes rest or death.
-
-'Ultimately, the poem illustrates how human life is driven by commitments. No matter how much nature beckons us to pause and escape, our earthly duties and promises must be fulfilled before our journey ends."""
-
-        "theme" """: "Nature vs. Duty, Temptation vs. Responsibility","""
+        "theme": "Nature vs. Duty, Temptation vs. Responsibility",
 
         "devices": [
             "Alliteration",
@@ -198,7 +179,7 @@ And miles to go before I sleep.""",
             "Personification"
         ],
 
-        "analysis": "প্রকৃতির সৌন্দর্য মানুষকে যেভাবে মন্ত্রমুগ্ধ করে এবং তার দায়িত্ববোধকে ভুলিয়ে দিতে চায়, তার এক চমৎকার রূপায়ন এখানে রয়েছে।",
+        "analysis": "প্রকৃতির সৌন্দর্য মানুষকে যেভাবে মন্ত্রমুগ্ধ করে এবং তার দায়িত্ববোধকে ভুলিয়ে দিতে চায়, তার এক চমৎকার রূপায়ন এখানে রয়েছে।",
 
         "questions": [
             {
@@ -419,8 +400,6 @@ with col1:
 
     # -----------------------------------------------------
     # ORIGINAL POEM
-    # IMPORTANT FIX:
-    # Dynamic key prevents old poem from remaining visible.
     # -----------------------------------------------------
 
     with tab1:
@@ -435,8 +414,6 @@ with col1:
 
     # -----------------------------------------------------
     # BANGLA TRANSLATION
-    # IMPORTANT FIX:
-    # Dynamic key prevents old translation from remaining.
     # -----------------------------------------------------
 
     with tab2:
