@@ -189,7 +189,7 @@ And miles to go before I sleep.""",
 
 'Ultimately, the poem illustrates how human life is driven by commitments. No matter how much nature beckons us to pause and escape, our earthly duties and promises must be fulfilled before our journey ends."""
 
-        "theme": "Nature vs. Duty, Temptation vs. Responsibility",
+        "theme" """: "Nature vs. Duty, Temptation vs. Responsibility","""
 
         "devices": [
             "Alliteration",
