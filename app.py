@@ -185,7 +185,7 @@ And miles to go before I sleep.""",
 
 
 
-'He is deeply captivated by the serene, quiet, and enchanting beauty of the winter landscape, tempted to linger in the peaceful isolation.' However, his conscience quickly reminds him of the real world and his obligations. The famous concluding lines "And miles to go before I sleep"—carry a profound symbolic weight, where "miles" represent the journey of life and "sleep" symbolizes rest or death.
+'He is deeply captivated by the serene, quiet, and enchanting beauty of the winter landscape, tempted to linger in the peaceful isolation.' However, his conscience quickly reminds him of the real world and his obligations. The famous concluding lines "And miles to go before I sleep" carry a profound symbolic weight, where "miles" represent the journey of life and "sleep" symbolizes rest or death.
 
 'Ultimately, the poem illustrates how human life is driven by commitments. No matter how much nature beckons us to pause and escape, our earthly duties and promises must be fulfilled before our journey ends.",'
 
