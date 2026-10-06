@@ -166,7 +166,7 @@ And miles to go before I sleep.""",
 আর ঘুমানোর আগে আমাকে আরও অনেক পথ যেতে হবে,
 আর ঘুমানোর আগে আমাকে আরও অনেক পথ যেতে হবে।""",
 
-    "summary_bn": 'রবার্ট ফ্রস্টের বিখ্যাত কবিতা 'Stopping by Woods on a Snowy Evening' এ প্রকৃতির মোহময় সৌন্দর্য এবং মানুষের বাস্তব জীবনের সামাজিক দায়িত্ব ও প্রতিশ্রুতির মধ্যকার দ্বন্দ্ব সুন্দরভাবে ফুটে উঠেছে।"
+    "summary_bn":"""রবার্ট ফ্রস্টের বিখ্যাত কবিতা 'Stopping by Woods on a Snowy Evening' এ প্রকৃতির মোহময় সৌন্দর্য এবং মানুষের বাস্তব জীবনের সামাজিক দায়িত্ব ও প্রতিশ্রুতির মধ্যকার দ্বন্দ্ব সুন্দরভাবে ফুটে উঠেছে।"
 শীতের এক সন্ধ্যায় তুষারাবৃত সুন্দর বনে একা দাঁড়িয়ে লেখক প্রকৃতির শান্ত ও মনোরম সৌন্দর্যে বিমোহিত হন. '
 
 'তিনি কিছু সময় সেখানে কাটিয়ে প্রকৃতির নীরবতা উপভোগ করতে চান। কিন্তু তার মন তাকে মনে করিয়ে দেয় যে, তার জীবনে বহু গুরুত্বপূর্ণ দায়িত্ব ও কর্তব্য বাকি রয়েছে। কবিতাটির শেষ দুটি পংক্তি—“কিন্তু আমার ঘুমানোর আগে অনেক মাইল পথ যেতে হবে”—অত্যন্ত প্রতীকী। এখানে ‘পথ’ হলো মানুষের জীবনযাত্রা এবং ‘ঘুম’ হলো মৃত্যু বা চূড়ান্ত বিশ্রামের রূপক।'
@@ -187,7 +187,7 @@ And miles to go before I sleep.""",
 
 'He is deeply captivated by the serene, quiet, and enchanting beauty of the winter landscape, tempted to linger in the peaceful isolation.' However, his conscience quickly reminds him of the real world and his obligations. The famous concluding lines "And miles to go before I sleep" carry a profound symbolic weight, where "miles" represent the journey of life and "sleep" symbolizes rest or death.
 
-'Ultimately, the poem illustrates how human life is driven by commitments. No matter how much nature beckons us to pause and escape, our earthly duties and promises must be fulfilled before our journey ends.",'
+'Ultimately, the poem illustrates how human life is driven by commitments. No matter how much nature beckons us to pause and escape, our earthly duties and promises must be fulfilled before our journey ends.""""
 
         "theme": "Nature vs. Duty, Temptation vs. Responsibility",
 
